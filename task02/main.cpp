@@ -14,7 +14,7 @@ int main() {
 	cout << "Vector: " << convert(vector, size) << endl;
 		 
 	cout << "Sum of even elements in odd position is: "
-		<< sum_event_elements(vector, size) << endl;
+		<< sum_event_elements(vector, size) << endl; 
 
 	delete[] vector;
 	return 0;
